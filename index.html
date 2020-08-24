@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Thales Henrique Viale - Blog</title>
+</head>
+<body>
+  
+  <header class="menu-bg">
+    <div class="menu">
+      <div class="menu-logo">
+        <a href="#">Blog</a>
+      </div>
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h1 class="introducao">Thales Henrique Viale</h1>
+
+  <section class="sobre" id="sobre">
+    <div class="sobre-info">
+      <h1>Sobre</h1>
+      <p>Desenvolvedor de sistemas Desktop (C#) e web ReactJS, experiência em elaboração de querys complexas, otimização de desempenho e administração de banco de dados SQL Server.</p>
+      <p>Conhecimento em Business Intelligence e seus processos como levantamento de objetivos, indicadores, arquitetura de solução, data warehouse, olap, data mart, ETL e elaboração de relatórios no Power BI.</p>
+      <p>Conhecimento básico em características fiscais, tributárias e geração de arquivo Sped EFD ICMS IPI.</p>
+      <p>Atualmente focado nos estudos das tecnologias: ReactJS e NodeJS.</p>
+    </div>
+    <div class="images">
+      <img src="img/sqlserver.png" class="sobre-img" alt="Imagem da logo do SQL Server">
+      <img src="img/csharp.png" class="sobre-img" alt="Imagem da logo da linguagem de programação C# (CSharp)">
+      <img src="img/react.png" class="sobre-img" alt="Imagem da logo da linguagem de programação ReactJS">
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <form class="contato-form">      
+      <h2>Contato</h2>
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" required ></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+<footer class="footer"><span>Thales Henrique Viale © Todos os direitos reservados.</span></footer>
+</body>
+</html>
