@@ -8,9 +8,9 @@
 
 
 <p align="center">
-  <img src="img/sqlserver.png" alt="Imagem da logo do SQL Server" width="100%">
-  <img src="img/csharp.png" alt="Imagem da logo da linguagem de programação C# (CSharp)" width="100%">
-  <img src="img/react.png" alt="Imagem da logo da linguagem de programação C# (CSharp)" width="100%">
+  <img src="img/sqlserver.png" alt="Imagem da logo do SQL Server" width="20%">
+  <img src="img/csharp.png" alt="Imagem da logo da linguagem de programação C# (CSharp)" width="20%">
+  <img src="img/react.png" alt="Imagem da logo da linguagem de programação C# (CSharp)" width="20%">
 </p>
 
 ## Thales Henrique Viale
